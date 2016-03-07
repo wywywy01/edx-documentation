@@ -1,0 +1,1 @@
+Course staff and administrators can now view the coach dashboard for custom courses. Course staff and administrators can view the coach dashboard as it appears for a specific course coach.
