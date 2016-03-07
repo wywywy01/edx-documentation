@@ -1,1 +1,2 @@
-Course staff and administrators can now view the coach dashboard for custom courses. Course staff and administrators can view the coach dashboard as it appears for a specific course coach.
+The LMS dashboard now displays multiple x-series for courses. If a course is part of more than one x-series, each x-series appears in the information for that course.
+.. ECOM-3415
