@@ -22,26 +22,31 @@ course teams, and developers. For more information, see
 What Is the Ficus Git Tag?
 **************************
 
-A Git tag identifies the version of Open edX code that is the Ficus release.
-You can find the most up-to-date Git tag for the current Open edX release on
+A git tag identifies the version of Open edX code that is the Ficus release.
+You can find the most up-to-date git tag for the current Open edX release on
 the `Open edX Releases Wiki page`_.
 
-The following Open edX Git repositories have the Ficus Git tag.
+The following Open edX git repositories have the Ficus git tag:
 
 * edx-platform
 * configuration
 * cs_comments_service
 * xqueue
-* XBlock
-* notifier
-* edx-ora2
-* edx-documentation
-* edx-certificates
-* edx-analytics-data-api-client
+* ecommerce
+* ecommerce-worker
 * edx-analytics-configuration
 * edx-analytics-dashboard
 * edx-analytics-data-api
 * edx-analytics-pipeline
+* edx-certificates
+* edx-custom-a11y-rules
+* edx-demo-course
+* edx-documentation
+* edx-notes-api
+* edx-ui-toolkit
+* notifier
+* programs
+* ux-pattern-library
 
 ****************************
 Installing the Ficus Release
@@ -54,62 +59,13 @@ Review the prerequisites and instructions for each option, and then choose the
 option that best meets your needs. Ensure that you install the
 required software to run the Open edX platform.
 
-If you are upgrading from the Dogwood release, see `Upgrading from Dogwood to
-Ficus`_.
-
-Ficus releases have Git tag names like ``open-release/eucalyptus.1``.
+Ficus releases have git tag names like ``open-release/ficus.1``.
 The available names are detailed on the `Open edX Releases Wiki page`_.
 
-
-*******************************
-Upgrading from Dogwood to Ficus
-*******************************
-
-You can upgrade an Open edX instance that is running the Dogwood release to the
-Ficus release.  EdX provides the ``upgrade.sh`` script if you have a simple
-Dogwood installation and want to upgrade it automatically. If you have a more
-complex or customized installation, you may need to upgrade manually.
-
-`The upgrade.sh script`_ is in the edX configuration repository on GitHub.
-
-.. note::
-  The upgrade script is only for upgrading instances running the Dogwood
-  release.  If your instance is running a release prior to the Dogwood release,
-  follow the instructions to upgrade it to each intervening release, and then
-  upgrade from Dogwood to Ficus.
-
-.. caution::
-  Before upgrading your Open edX instance, back up all data and configuration
-  files. Then verify that you can restore your Open edX instance from the
-  backup files.
-
-On the computer or virtual machine that is running the Dogwood release of Open
-edX, run the upgrade script for your type of installation.
-
-#.  Download the script.
-
-    .. code-block:: bash
-
-        $ export OPENEDX_RELEASE=open-release/eucalyptus.1
-        $ curl -OL https://raw.github.com/edx/configuration/$OPENEDX_RELEASE/util/vagrant/upgrade.sh
-
-#.  Run the script.
-
-    * For devstack, run ``bash upgrade.sh -c devstack``.
-
-    * For fullstack, run ``bash upgrade.sh -c fullstack``.
-
-You can find the most up-to-date Git tag for the current Open edX release on
-the `Open edX Releases Wiki page`_.
-
-You can also run ``bash upgrade.sh -h`` to see which other options the script
-accepts.
-
-The script creates a temporary directory in which it upgrades Open edX, then
-cleans up extra files and directories when it finishes running.
-
-After upgrading Open edX to the Ficus release, start the LMS and Studio and
-verify that course content and data was migrated correctly.
+Previous releases ran on Ubuntu 12.04, but Ficus runs on 16.04.  Because of the
+change in operating system, edX is not providing an upgrade path.  If you have
+an existing Eucalyptus installation, you must install Ficus on a new
+machine, and move your data and settings to it.
 
 
 ***************************************
@@ -117,7 +73,7 @@ Upgrading to a Subsequent Ficus Release
 ***************************************
 
 Occasionally, we release updates to Ficus.  For example, the second 
-release of Ficus is ``open-release/eucalyptus.2``.
+release of Ficus is ``open-release/ficus.2``.
 The steps to upgrade differ based on your original installation method.
 
 ================================
@@ -129,7 +85,7 @@ point release, follow these steps in the host operating system.
 
 .. code-block:: bash
 
-    $ export OPENEDX_RELEASE=open-release/eucalyptus.2
+    $ export OPENEDX_RELEASE=open-release/ficus.2
     $ vagrant provision
 
 ===============================
