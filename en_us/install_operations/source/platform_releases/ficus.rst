@@ -80,8 +80,8 @@ The steps to upgrade differ based on your original installation method.
 Upgrading a Vagrant Installation
 ================================
 
-Devstack and Fullstack are installed using Vagrant.  To upgrade to a Ficus
-point release, follow these steps in the host operating system.
+Devstack and Fullstack are installed using Vagrant.  To upgrade from one Ficus
+release to another, follow these steps in the host operating system:
 
 .. code-block:: bash
 
@@ -92,9 +92,9 @@ point release, follow these steps in the host operating system.
 Upgrading a Native Installation
 ===============================
 
-If you installed Open edX using the `Open edX Native Installation`_, re-run
-those steps using your desired Ficus tag as the new value for
-``OPENEDX_RELEASE``.
+If you installed Open edX using the `Open edX Native Installation`_, you can
+upgrade from one Ficus release to another by re-running those steps using your
+desired Ficus tag as the new value for ``OPENEDX_RELEASE``.
 
 
 .. include:: ../../../links/links.rst

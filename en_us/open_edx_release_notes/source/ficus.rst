@@ -151,6 +151,7 @@ keyboards and screen readers.
 *******************************
 System Upgrades and Updates
 *******************************
+
 Administrators can now configure third party authentication differently for
 each of their sites. 
 
@@ -192,7 +193,7 @@ subscribe to have these weekly release announcements sent to your email
 account.
 
 Changes listed for 11 January 2017 and before are included in the Ficus release
-of Open edX.
+of Open edX.  Changes after that point will be in future Open edX releases.
 
 
 .. 
@@ -206,17 +207,7 @@ of Open edX.
     2 September 2016: Eucalyptus.2
     ==============================
 
-    * A problem that caused the Django Debug Toolbar to raise a "process() takes
-    exactly 3 arguments (2 given)" exception has been fixed.
-
-    * Course discussion performance has been improved. (:jira:`TNL-5173`)
-
-    * Learners can now correctly add a comment to a response in inline course
-    discussions.  (:jira:`TNL-5389`)
-
-    * Links to vertical blocks have been fixed. (:jira:`TNL-5003`)
-
-    * The install_stack.sh file now creates directories differently.
+    * bullet list of the changes...
 
 .. include:: links.rst
 .. include:: ../../links/links.rst

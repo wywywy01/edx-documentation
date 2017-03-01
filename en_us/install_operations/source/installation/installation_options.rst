@@ -8,7 +8,7 @@ This section describes Open edX installation options and the components that
 each option includes. More details about the various options are at
 `Open edX Installation Options`_ page on the edX wiki.
 
-There are a number of Virtual Machine options, which install the Open edX
+There are a three virtual machine options, which install the Open edX
 software in a virtual Ubuntu machine.  If you prefer, you can install into an
 Ubuntu machine of your own using the Native installation.
 
@@ -123,7 +123,7 @@ Devstack, fullstack and native installtion also include:
 * E-Commerce
 * Programs
 * A demonstration Open edX course.
-* Open EdX Search.
+* Open edX Search.
 
 Fullstack and native also include the following Open edX components:
 
@@ -191,7 +191,7 @@ must configure your installation to use the preview feature in Open edX Studio.
 
 #. :ref:`Connect to the Devstack virtual machine<Connect to Devstack VM>`.
 
-#. In the ``etc/hosts`` file, add the following line.
+#. In the ``/etc/hosts`` file, add the following line.
 
   .. code-block:: bash
 
