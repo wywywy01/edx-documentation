@@ -216,7 +216,9 @@
 
 .. _Open edX Installation options: https://openedx.atlassian.net/wiki/x/wwCXAw
 
-.. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/bgCXAw
+.. _Open edX Native 12.04 Installation: https://openedx.atlassian.net/wiki/x/bgCXAw
+
+.. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
 
 
 
