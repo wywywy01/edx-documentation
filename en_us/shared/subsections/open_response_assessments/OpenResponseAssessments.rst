@@ -9,18 +9,16 @@ through a series of assessment steps (such as peer assessment and self
 assessment) to complete the assignment.
 
 
-.. note::
+.. note:: ORA assignments cannot be used as the prerequisite when you configure
+   :ref:`prerequisite course subsections<configuring_prerequisite_content>`.
 
-   ORA assignments cannot be used as the prerequisite when you configure
-   :ref:`prerequisite course subsections<configuring_prerequisite_content>.
-
-  Open response assessments that are visible to all learners do not respect
-  cohorts. In other words, it is possible for learners in one cohort to be
-  asked to grade responses for learners in another cohort. If you want to make
-  an open response assessment divided by cohort, you must create that
-  assessment in a course component that is defined as cohort-specific. For more
-  information about cohorts and creating cohort-specific course content, see
-  :ref:`Cohorts Overview` and :ref:`Cohorted Courseware Overview`.
+   Open response assessments that are visible to all learners do not respect
+   cohorts. In other words, it is possible for learners in one cohort to be
+   asked to grade responses for learners in another cohort. If you want to make
+   an open response assessment divided by cohort, you must create that
+   assessment in a course component that is defined as cohort-specific. For  more
+   information about cohorts and creating cohort-specific course content, see
+   :ref:`Cohorts Overview` and :ref:`Cohorted Courseware Overview`.
 
 The following topics provide conceptual information about open response
 assessments.
