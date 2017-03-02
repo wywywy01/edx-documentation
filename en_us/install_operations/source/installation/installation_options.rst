@@ -5,7 +5,7 @@ Open edX Platform Installation Options
 ########################################
 
 This section describes Open edX installation options and the components that
-each option includes. More details about the various options are at
+each option includes. More details about the various options are at the
 `Open edX Installation Options`_ page on the edX wiki.
 
 There are a three virtual machine options, which install the Open edX
@@ -27,9 +27,9 @@ devstack**).
 * Devstack is a Vagrant virtual machine instance designed for local
   development. For more information, see :ref:`Info Devstack`.
 
-* Fullstack is a Vagrant virtual machine instance designed for deploying all
-  Open edX services on a single server. For more information, see :ref:`Info
-  Fullstack`.
+* Fullstack is a Vagrant virtual machine instance designed for installing all
+  Open edX services on a single server in a production-like configuration. For
+  more information, see :ref:`Info Fullstack`.
 
 * Analytics devstack is a modified version of the devstack virtual machine that
   allows you to run Open edX Analytics. For more information, see
@@ -68,9 +68,9 @@ For more information about Vagrant, see the `Vagrant documentation`_.
 Open edX Fullstack
 ==================
 
-Fullstack is a Vagrant instance designed for deploying all Open edX services on a
-single server.  Fullstack is a pre-packaged Native installation running in a
-Vagrant virtual machine.
+Fullstack is a Vagrant instance designed for installing all Open edX services
+on a single server in a production-like configuration.  Fullstack is a
+pre-packaged Native installation running in a Vagrant virtual machine.
 
 For information about fullstack and other installation and configuration
 options from edX and the Open edX community, see the `Open edX Installation
@@ -89,7 +89,7 @@ Some users might want to develop Analytics features on their instance of the
 Open edX platform. Because of the large number of dependencies needed to
 develop extensions to Analytics, edX has created a separate developer stack,
 known as analytics devstack. We strongly recommend that you install the
-Analytics Devstack instead of adding Analytics extensions to an instance of
+analytics devstack instead of adding Analytics extensions to an instance of
 devstack.
 
 Analytics devstack is a modified version of the :ref:`Open edX developer
@@ -102,9 +102,9 @@ and Insights projects.
 Native Installation
 *******************
 
-The Native installation installs the Open edX software on an Ubuntu 16.04
-machine.  Details are at the `Open edX Native Installation`_ page on the edX
-wiki.
+The Native installation installs the Open edX software on your own Ubuntu 16.04
+machine in a production-like configuration.  Details are at the `Open edX
+Native Installation`_ page on the edX wiki.
 
 
 *******************
@@ -118,7 +118,7 @@ All installations include the following Open edX components:
 * Discussion Forums.
 * Open Response Assessments (ORA).
 
-Devstack, fullstack and native installtion also include:
+Devstack, fullstack and native installation also include:
 
 * E-Commerce
 * Programs

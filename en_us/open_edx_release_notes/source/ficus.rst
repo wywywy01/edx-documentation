@@ -26,10 +26,6 @@ LMS
 New **Next** and **Previous** buttons allow learners to navigate more
 intuitively through courses.
 
-A post listing view that shows not only post titles, but also the first line of
-each post, is now available on the **Discussions** and **Teams** pages and in
-inline discussions.
-
 The **Progress** page loads significantly faster.
 
 For course problems, the **Check** and **Final Check** buttons are now combined
@@ -37,6 +33,13 @@ in one **Submit** button, and less frequently used actions (such as **Save**
 and **Show Answer**) have been moved to the side. 
 
 Learners can quickly see whether problems are graded or ungraded.
+
+Discussions
+===========
+
+A post listing view that shows not only post titles, but also the first line of
+each post, is now available on the **Discussions** and **Teams** pages and in
+inline discussions.
 
 Improvements to the discussions UI: added learner profile pictures to
 discussion posts, a new header area, a more intuitive topic list, and an
@@ -64,9 +67,14 @@ more information about specific functionality:
 * :ref:`opencoursestaff:Using the Script Element in Checkbox Problems` for
   checkbox problems.
 
-* :ref:`opencoursestaff:Randomized Content Blocks`.
+Randomized content block components no longer have the unused Scored field.
+Because grading is set at the subsection level, this action won't affect your
+course. See :ref:`opencoursestaff:Randomized Content Blocks` for more
+information.
 
-* :ref:`opencoursestaff:Add Page`.
+Course teams can create custom pages that only course team members with the
+Staff or Admin role can see.  See :ref:`opencoursestaff:Add Page` for more
+information.
 
 In open response assessment (ORA) problems, course teams can override the
 grades from peer assessments. For more information, see
@@ -75,10 +83,10 @@ grades from peer assessments. For more information, see
 Improvements to the word cloud tool include a new Instructions field and
 accessibility updates.
 
-The ability to prevent learners from receiving feedback until they've dropped
-all draggable items.
+In drag and drop problems, course authors can prevent learners from receiving
+feedback until they've dropped all draggable items.
 
-Added "View this course as" capability.
+Added the ability to view a course as a member of a content group.
 
 In the Student Profile report, added two columns: "enrollment mode" and
 "verification status".
@@ -186,13 +194,10 @@ More Information on Ficus Release Changes
 
 The `edX Release Notes`_ contain a summary of changes that are deployed to
 edx.org. Those changes are part of the master branch of the edX Platform in
-GitHub.
+GitHub.  You can also find `release announcements`_ on the open.edx.org
+website.
 
-You can also find `release announcements`_ on the open.edx.org website. You can
-subscribe to have these weekly release announcements sent to your email
-account.
-
-Changes listed for 11 January 2017 and before are included in the Ficus release
+Changes listed for 10 January 2017 and before are included in the Ficus release
 of Open edX.  Changes after that point will be in future Open edX releases.
 
 
