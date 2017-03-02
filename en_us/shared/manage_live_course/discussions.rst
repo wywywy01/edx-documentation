@@ -227,7 +227,7 @@ Discussion list now includes the topic you added.
 
  .. image:: ../../../shared/images/NewCategory_Discussion.png
   :width: 300
-  :alt: Image of a new topic named Course Q&A in the list of discussion topics.
+  :alt: A new topic named Course Q&A in the list of discussion topics.
 
 .. note:: In courses that use cohorts, the course-wide discussion topics that
    you add are unified. All posts can be read and responded to by every
@@ -412,20 +412,18 @@ To enable anonymous discussion posts in your course, follow these steps.
 #. Locate the **Allow Anonymous Discussion Posts to Peers** field. The default
    value is ``false``.
 
- .. image:: ../../../shared/images/Anonymous_Discussion_Setting.png
-  :width: 400
-  :alt: Image of the Anonymous Discussion Posts to Peers field in the Studio's Advanced Settings.
-
 #. Change the value of the setting to ``true``.
 
-#. Select **Save Changes**. Learners can now create discussion posts in your
-   course that are anonymous to other learners.
+#. Select **Save Changes**.
 
-The Advanced Settings page in the Studio also includes a field named **Allow
+Learners can now create discussion posts in your course that are anonymous
+to other learners.
+
+The **Advanced Settings** page in Studio also includes a field named **Allow
 Anonymous Discussion Posts**. Setting the value of that field to ``true``
 enables learners to create discussion posts that are anonymous to course
 staff, as well as to other learners. As a best practice, edX recommends
-against setting this field to ``true``.
+that you do not set this field to ``true``.
 
 
 .. _Running_discussions:
