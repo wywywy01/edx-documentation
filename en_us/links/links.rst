@@ -240,6 +240,7 @@
 .. _Testing in Django: https://docs.djangoproject.com/en/1.8/topics/testing/
 .. _Django sites framework: https://docs.djangoproject.com/en/1.8/ref/contrib/sites
 .. _Jasmine: http://jasmine.github.io/2.3/introduction.html
+.. _edX JavaScript Style Guide: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/style_guides/javascript_guidelines.html
 .. _JSHint: http://www.jshint.com/
 .. _jscs: https://www.npmjs.org/package/jscs
 .. _Waffle: http://waffle.readthedocs.org/en/latest
